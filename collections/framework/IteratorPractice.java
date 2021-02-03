@@ -14,7 +14,7 @@ public class IteratorPractice {
             System.out.println(it.next());
         }
         System.out.println(list);
-        
+
         Map map = new HashMap();
         map.put(1, "a");
         map.put(2, "b");
