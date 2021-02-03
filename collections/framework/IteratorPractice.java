@@ -1,8 +1,6 @@
 package collections.framework;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
+import java.util.*;
 
 
 public class IteratorPractice {
@@ -16,5 +14,15 @@ public class IteratorPractice {
             System.out.println(it.next());
         }
         System.out.println(list);
+        
+        Map map = new HashMap();
+        map.put(1, "a");
+        map.put(2, "b");
+        map.put(5, "e");
+        System.out.println(map);
+        Iterator mapit = map.entrySet().iterator();
+        while (mapit.hasNext()) {
+            System.out.println(mapit.next());
+        }
     }
 }
