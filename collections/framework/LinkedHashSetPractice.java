@@ -1,3 +1,5 @@
+package collections.framework;
+
 import java.util.*;
 
 public class LinkedHashSetPractice {
