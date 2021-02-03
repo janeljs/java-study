@@ -1,6 +1,5 @@
-package collections.framework;
+package collection.framework;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 import static java.util.Collections.*;

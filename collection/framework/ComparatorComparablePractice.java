@@ -1,4 +1,4 @@
-package collections.framework;
+package collection.framework;
 
 import java.util.Arrays;
 import java.util.Comparator;
